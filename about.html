@@ -5,26 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J Marsh | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>J Marsh</h1>
             <h2>Software Engineer</h2>
         </a>
         <nav>
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="selected">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div>
+    <div id="wrapper">
         <section>
-            <img src="img/avi.jpg" alt="Photo of J Marsh">
+            <img src="img/avi.jpg" alt="Photo of J Marsh" class="profile-photo">
             <h3>About</h3>
             <p>Hello, I'm Jordin Marshall. This is software engineering portfolio.</p>
             <p>If you'd like to follow me on Twitter, my username is <a href="#">@myUsername</a></p>
@@ -32,8 +34,8 @@
     </div>
 
     <footer>
-        <a href="#" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
-        <a href="#" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
+        <a href="#" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="#" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p>&copy; 2019 Jordin Marshall</p>
     </footer>
 </body>

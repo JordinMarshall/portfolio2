@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J Marsh | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>J Marsh</h1>
             <h2>Software Engineer</h2>
         </a>
@@ -18,30 +20,30 @@
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="selected">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div>
-        <section>
+    <div id="wrapper">
+        <section id="primary">
             <h3>General Information</h3>
             <p>I am not currently looking for freelance or other job opportunities. If you have any questions, don't hesitate to contact me.</p>
             <p>Serious inquiries only.</p>
         </section>
 
-        <section>
+        <section id="secondary">
             <h3>Contact Details</h3>
-            <ul>
-                <li><a href="tel:555-5555">555-5555</a></li>
-                <li><a href="mailto:jordin.marshall@cbsinteractive.com">jordin.marshall@cbsinteractive.com</a></li>
-                <li><a href="http://twitter.com/intent/tweet?screen_name=yourUserName" target="_blank">yourUserName</a></li>
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:555-5555">555-5555</a></li>
+                <li class="mail"><a href="mailto:jordin.marshall@cbsinteractive.com">jordin.marshall@cbsinteractive.com</a></li>
+                <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=yourUserName" target="_blank">yourUserName</a></li>
             </ul>
         </section>
     </div>
 
     <footer>
-        <a href="#" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
-        <a href="#" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
+        <a href="#" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="#" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p>&copy; 2019 Jordin Marshall</p>
     </footer>
 </body>
