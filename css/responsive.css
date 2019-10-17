@@ -1,0 +1,71 @@
+@media screen and (max-width: 480px){
+    #gallery li:nth-child(2n + 1){
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 480px){
+/*********************
+Page: Portfolio
+3 columns *5 margins = 15%
+100% - 15% = 85%
+85%/3 colums = 28.3333   
+*********************/
+    #gallery li{
+        width: 28.3333%;
+    }
+    #gallery li:nth-child(4n){
+        clear: left;
+    }
+    
+/*********************
+Page: About
+*********************/
+    .profile-photo{
+        float: left;
+        margin: 0 5% 80px 0;
+    }
+/*********************
+Page: Contact
+    Two column Layout
+*********************/
+    #primary{
+        width: 50%;
+        float: left;
+    }
+    #secondary{
+        width:40%;
+        float: right;
+    }
+    
+}
+@media screen and (min-width: 660px){
+/*********************
+Header
+*********************/
+    nav{
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width:45%;
+    }
+    #logo{
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width:45%;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 0.825em;
+        margin-bottom: 20px;
+    }
+    header{
+        border-bottom: 5px solid #599a68;
+        margin-bottom: 60px;
+    }
+}
